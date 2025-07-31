@@ -2,7 +2,7 @@ name: pytorch
 channels:
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.9.23
   - torchvision
   - torchaudio
   - pytorch
