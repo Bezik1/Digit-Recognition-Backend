@@ -1,0 +1,13 @@
+name: pytorch
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - torchvision
+  - torchaudio
+  - pytorch
+  - scikit-learn
+  - matplotlib
+  - fastapi
+  - uvicorn
+prefix: /opt/anaconda3/envs/pytorch
