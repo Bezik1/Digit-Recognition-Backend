@@ -18,8 +18,8 @@ gamma = 0.9
 
 ## 🗒️ Features
 
-* 🛜 easy to use and develop REST API based on FastAPI
-* 🤖 pytorch model, with it's parameters ready to be used in practice
+* 🛜 Easy to use and develop REST API based on FastAPI
+* 🤖 Pytorch model, with it's parameters ready to be used in practice
 * ⚙️ Docker support for local development
 
 ## ⚙️ Command Tools
