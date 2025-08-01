@@ -1,16 +1,28 @@
-0️⃣ Digit Recognition App – Backend
+# 0️⃣ Digit Recognition App – Backend
 
-💡 Overview
+## 💡 Overview
 
 This is the backend of Digit Reconigition App project. Server was built using Python and FastAPI framework. Application involes usage of machine learning digit recognition model, which is based on resnet architecture, fine-tuned to work with MNIST dataset.
 
-🗒️ Features
+## 🎯 Model Training
+
+Model was trained, with such hyperparameters:
+```python
+num_class = 10
+num_epochs = 2
+batch_size = 100
+learning_rate = 0.01
+step_size = 100 
+gamma = 0.9
+```
+
+## 🗒️ Features
 
 * 🛜 easy to use and develop REST API based on FastAPI
 * 🤖 pytorch model, with it's parameters ready to be used in practice
 * ⚙️ Docker support for local development
 
-⚙️ Command Tools
+## ⚙️ Command Tools
 
 To work with this project locally or in a containerized environment, use the following commands:
 ```bash
