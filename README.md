@@ -35,7 +35,7 @@ uvicorn index:app --host 0.0.0.0 --port 8000 # run command
 docker-compose up # 🐳 Run with Docker (backend + frontend)
 ````
 
-🧠 Tech Stack
+## 🧠 Tech Stack
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,anaconda,docker" />
